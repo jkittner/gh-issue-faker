@@ -1,0 +1,77 @@
+<div
+class="TimelineItem js-targetable-element"
+data-team-hovercards-enabled=""
+id="event-8335122076"
+>
+<div class="TimelineItem-badge">
+  <svg
+    aria-hidden="true"
+    height="16"
+    viewBox="0 0 16 16"
+    version="1.1"
+    width="16"
+    data-view-component="true"
+    class="octicon octicon-skip color-fg-inherit"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm3.28 5.78a.75.75 0 00-1.06-1.06l-5.5 5.5a.75.75 0 101.06 1.06l5.5-5.5z"
+    ></path>
+  </svg>
+</div>
+<div class="TimelineItem-body">
+  <a
+    class="d-inline-block"
+    data-hovercard-type="user"
+    data-hovercard-url="/users/{{ klass.user.username }}/hovercard"
+    data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self"
+    href="https://github.com/{{ klass.user.username }}"
+    ><img
+      class="avatar avatar-user"
+      src="{{ klass.user.profile_pic }}"
+      alt="@{{ klass.user.username }}"
+      width="20"
+      height="20"
+  /></a>
+  <a
+    class="author Link--primary text-bold"
+    data-hovercard-type="user"
+    data-hovercard-url="/users/{{ klass.user.username }}/hovercard"
+    data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self"
+    href="https://github.com/{{ klass.user.username }}"
+    >{{ klass.user.username }}</a
+  >
+
+  closed this as
+  <a
+    id="np-CE_lADODj8zp85clJZCzwAAAAHwz96c"
+    class="Link--secondary"
+    href="https://github.com/{{ klass.user.username }}/memoII_netatmo/issues?q=is%3Aissue+is%3Aclosed+archived%3Afalse+reason%3A%22not+planned%22"
+    aria-describedby="tooltip-6afd4c15-21e7-43b1-bb5e-4796b8d9c99b"
+    >{{ klass.reason }}</a
+  >
+  <tool-tip
+    id="tooltip-6afd4c15-21e7-43b1-bb5e-4796b8d9c99b"
+    for="np-CE_lADODj8zp85clJZCzwAAAAHwz96c"
+    data-direction="s"
+    data-type="description"
+    data-view-component="true"
+    class="sr-only position-absolute"
+    role="tooltip"
+    >Won't fix, can't repro, duplicate,
+    stale</tool-tip
+  >
+
+  <a
+    href="#event-8335122076"
+    class="Link--secondary"
+    >on {{ klass.post_date }}</a
+  >
+</div>
+</div>
+<div
+class="TimelineItem-break mb-0 height-full"
+></div>
+</div>

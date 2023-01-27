@@ -1,0 +1,59 @@
+<div
+class="TimelineItem js-targetable-element"
+data-team-hovercards-enabled=""
+id="event-8335125194"
+>
+<div
+  class="TimelineItem-badge color-fg-on-emphasis color-bg-emphasis"
+>
+  <svg
+    aria-hidden="true"
+    height="16"
+    viewBox="0 0 16 16"
+    version="1.1"
+    width="16"
+    data-view-component="true"
+    class="octicon octicon-lock color-fg-inherit"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M4 4v2h-.25A1.75 1.75 0 002 7.75v5.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 13.25v-5.5A1.75 1.75 0 0012.25 6H12V4a4 4 0 10-8 0zm6.5 2V4a2.5 2.5 0 00-5 0v2h5zM12 7.5h.25a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-5.5a.25.25 0 01.25-.25H12z"
+    ></path>
+  </svg>
+</div>
+<div class="TimelineItem-body">
+  <a
+    class="d-inline-block"
+    data-hovercard-type="user"
+    data-hovercard-url="/users/{{ klass.user.username }}/hovercard"
+    data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self"
+    href="https://github.com/{{ klass.user.username }}"
+    ><img
+      class="avatar avatar-user"
+      src="{{ klass.user.profile_pic }}"
+      alt="@{{ klass.user.username }}"
+      width="20"
+      height="20"
+  /></a>
+  <a
+    class="author Link--primary text-bold"
+    data-hovercard-type="user"
+    data-hovercard-url="/users/{{ klass.user.username }}/hovercard"
+    data-octo-click="hovercard-link-click"
+    data-octo-dimensions="link_type:self"
+    href="https://github.com/{{ klass.user.username }}"
+    >{{ klass.user.username }}</a
+  >
+
+  locked as <strong>{{ klass.reason }} </strong>and
+  limited conversation to collaborators
+
+  <a
+    href="#event-8335125194"
+    class="Link--secondary"
+    >on {{ klass.post_date }}
+    </a
+  >
+</div>
+</div>
