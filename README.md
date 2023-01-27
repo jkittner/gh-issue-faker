@@ -17,3 +17,7 @@ You can create:
 ### rationale
 
 lol
+
+### examples
+
+![example issue joke](https://user-images.githubusercontent.com/54631600/214979149-64f3192e-0a1c-45f3-83c2-2544feed9936.png)
